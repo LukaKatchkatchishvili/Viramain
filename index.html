@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
@@ -16,25 +17,19 @@
     <div class="container">
     <div class="home-wrapper">
         <p class="logo">Viramain</p>
-    <nav>
+    <nav class="nav-links active" id="navbarLinks">
         <ul>
-            <a href="#home">
-                <li>Home</li>
-            </a><a href="#blog">
-                <li>Blog</li>
-            </a><a href="#services">
-                <li>Services</li>
-            </a><a href="#news">
-                <li>News</li>
-            </a><a href="#about">
-                <li>About</li>
-            </a>
-            
+            <a href="#home"><li>Home </li></a>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#about">About</a></li>
         </ul>
     </nav>
+    <i class="fas fa-bars" id="toogleButton"></i>
 </div>
 <div class="text-container">
-    <div class="text-wrapper">
+    <div class="text-wrapper active" id="wrapperMargin">
     <p class="text">architecture/interior</p>
     <h1 class="main-text">we are building experts</h1>
     <a href="#blog"><button type="button" class="mainbtn btn btn-light">READ MORE</button></a>
@@ -136,5 +131,6 @@
     </div>
 </div>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>

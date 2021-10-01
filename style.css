@@ -26,7 +26,6 @@ a{
     max-width:1170px;
     width: 75%;
     margin:0px auto;
-   
 }
 .nav-home{
     background-image:url("backgorund.png");
@@ -41,6 +40,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 nav{
     font-size:18px;
@@ -268,4 +268,8 @@ footer{
     border-color:white;
     font-size:0.9rem;
     margin-top:30px;
+}
+.fa-bars{
+    font-size:1.5rem;
+    display: none;
 }
