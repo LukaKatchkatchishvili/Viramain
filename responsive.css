@@ -40,7 +40,7 @@
     }
     .text-wrapper{
         margin:0 auto;
-        margin-top:180px;
+        margin-top:120px;
         width:100%;
         text-align: center;
     }
@@ -64,7 +64,7 @@
         display:block;
     }
     .text-wrapper.active{
-        margin-top:80px;
+        margin-top:90px;
     }
     /* 2 */
     .image{
