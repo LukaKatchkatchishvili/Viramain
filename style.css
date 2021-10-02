@@ -181,17 +181,15 @@ nav ul li{
 .tree-divs{
     color:black;
     display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-between;    
+    /* width: 100%; */
 }
 .tree-divs-div{
-    width:340px;
-}
-.tree-divs-div img{
-    width:340px;
+    max-width: 300px;
+    width: 100%;
 }
 .tree-divs-div-text-wrapper{
-    width:83%;
+    width: 100%;
     margin:30px auto 0 auto;
 }
 .news .read-moree {

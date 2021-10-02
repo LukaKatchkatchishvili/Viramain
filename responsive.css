@@ -7,10 +7,17 @@
     .margina{
         margin-top:100px;
     }
+    .tree-divs{
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
 }
 @media (max-width:768px){
     .container{
-        width: 80%;
+        width: 100%;
+    }
+    .tree-divs-div-text-wrapper{
+        margin: 0;
     }
     /* 1 */
     nav ul{
@@ -113,7 +120,7 @@
         margin-top:50px;
     }
     .tree-divs-div img{
-        max-width: 300px;
+        max-width: 100%;
     }
     .tree-divs{
         flex-direction: column;
