@@ -23,7 +23,7 @@ a{
     text-decoration: none !important;
 }
 .container{
-    max-width:1170px;
+    max-width:1270px;
     width: 75%;
     margin:0px auto;
 }
@@ -82,7 +82,7 @@ nav ul li{
     margin-bottom: 38px;
 }
 .image{
-    width:270px;
+    width:250px;
     height:450px;
     background-color: #DFDFDF;
 }
@@ -91,7 +91,7 @@ nav ul li{
     flex-wrap: wrap;
 }
 .second{
-    margin-left:30px;
+    margin-left:50px;
     margin-top:100px;
 }
 .first{
@@ -133,10 +133,6 @@ nav ul li{
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     color:#5F5F5F;
-}
-
-.main-wrapper{
-    width:60%;
 }
 .services{
     background-color: #101010;

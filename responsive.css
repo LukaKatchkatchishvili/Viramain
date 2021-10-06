@@ -12,9 +12,9 @@
         margin: 0 auto;
     }
 }
-@media (max-width:768px){
+@media (max-width:851px){
     .container{
-        width: 100%;
+        width: 95%;
     }
     .tree-divs-div-text-wrapper{
         margin: 0;
@@ -84,6 +84,9 @@
     .first{
         margin:0;
     }
+    .main{
+        flex-direction:column;
+    }
     .main-title{
         margin:100px auto 0 auto;
         text-align: center;
@@ -133,5 +136,8 @@
     .gotoa{
         display: flex;
         margin:25px 0;
+    }
+    .logoebi{
+        width:23px;
     }
 }
