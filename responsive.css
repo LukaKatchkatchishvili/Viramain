@@ -12,7 +12,7 @@
         margin: 0 auto;
     }
 }
-@media (max-width:851px){
+@media (max-width:855px){
     .container{
         width: 95%;
     }
