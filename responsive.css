@@ -94,6 +94,7 @@
     .main-title{
         margin:100px auto 0 auto;
         text-align: center;
+        width:100%;
     }
     .read-moree{
         display:flex;
