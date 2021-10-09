@@ -144,7 +144,7 @@ nav ul li{
 .four-divs-div{
     border:solid 1px #262626;
     width:270px;
-    padding:31px 40px 51px 30px;
+    padding:31px 40px 31px 30px;
     color:white;
 }
 .div-title{
@@ -162,6 +162,7 @@ nav ul li{
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     font-size:0.9em;
+    line-height: 1.5;
 }
 .four-divs{
     display:flex;
