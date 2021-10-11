@@ -23,9 +23,12 @@ body{
     max-width:350px;
     width:100%;
 }
+.six-div-divs:hover{
+    cursor:pointer;
+}
 .six-div div{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
 }
 .six-div-p{
     font-size:0.8em;
@@ -38,7 +41,7 @@ body{
 #hidden{
     display:none;
 }
-.logo{
+.title-p{
     font-family: 'Work Sans', sans-serif;
     font-weight: Bold;
 }
