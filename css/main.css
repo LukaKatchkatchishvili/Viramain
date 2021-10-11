@@ -60,3 +60,52 @@ nav ul li{
 .home-wrapper .logo{
     font-family: 'Montserrat', sans-serif;
 }
+.logos{
+    display:flex;
+    width:180px;
+    justify-content: space-between;
+    
+}
+.logoebi{
+    width:30px;
+}
+.footeri{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#838383
+}
+footer{
+    background-color:black;
+    padding-top:42px;
+    padding-bottom:42px;
+}
+.footeri .gotoa{
+    color:#838383;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size:14px;
+}
+.footer-c{
+    display: inline-block;
+    width:180px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size:15px;
+}
+.buttoni{
+    display:flex;
+    justify-content: center;
+    margin:50px 100px;
+}
+.btn-light{
+    background-color: transparent;
+    color:black;
+    padding:7px 30px;
+    border-radius: 0;
+    border-color:rgb(190, 190, 190);
+    border-width: 1.5px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size:0.8em;
+}
