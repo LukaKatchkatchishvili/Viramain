@@ -168,4 +168,10 @@ footer{
     .logoebi{
         width:23px;
     }
+    .nav-home{
+        padding-bottom: 20px;
+    }
+    .logo{
+        line-height: 1.6;
+    }
 }

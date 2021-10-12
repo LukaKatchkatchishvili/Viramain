@@ -1,0 +1,25 @@
+body{
+    background-color:#f6f6f6;
+}
+iframe{
+    width:100%;
+    filter:grayscale(99%);
+}
+.contact-info{
+    font-family: 'Work Sans', sans-serif;
+}
+.contact-wrapper{
+    max-width:336px;
+    width:100%;
+}
+.contact-title{
+    font-size:30px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-information{
+    font-size:15px;
+}
+.contact-address{
+    font-size:15px;
+}
