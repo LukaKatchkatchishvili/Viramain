@@ -1,6 +1,13 @@
 body{
     background-color:#f6f6f6;
 }
+a{
+    color:black;
+    transition:ease 0.2s;
+}
+a:hover{
+    color:rgb(109, 109, 109);
+}
 .title .title-p{
     display:flex;
     justify-content: center;
